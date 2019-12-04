@@ -12,6 +12,8 @@ namespace Helicopter
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        bool goUp;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
